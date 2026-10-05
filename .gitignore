@@ -1,0 +1,21 @@
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+tools/downloads/
+tools/gradle/
+
+# APK 产物（太大，不入仓库）
+*.apk
+
+# Git LFS 跟踪的大模型文件
+# app/src/main/assets/asr/model.int8.onnx 由 git-lfs 管理，无需排除
+
+# 临时文件
+*.log
+*.tmp
